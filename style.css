@@ -1,0 +1,67 @@
+#head{
+    height: 10vh;
+    text-align: center;
+    color: blue;
+    padding: 50px 50px;
+    background-color: black;
+}
+
+.container {
+    border: 2px solid black;
+    height: 60vh;
+    padding: 10px 10px;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+#box-1 {
+    background-color: green;
+    color: white;
+    grid-row: 1/4;
+}
+
+#box-2{
+    background-color: green;
+    color: white;
+    grid-column: 2/4;
+}
+
+#box-3{
+    background-color: red;
+    color: white;
+    grid-column: 4/15;
+}
+#box-4{
+    background-color: rgb(200, 202, 52);
+    color: white;
+}
+
+#box-5{
+    background-color: red;
+    color: white;
+}
+#box-6 {
+    background-color: green;
+    color: white;
+    grid-row: 2/4;
+    grid-column: 15/4;
+}
+
+#box-7{
+    background-color: red;
+    color: white;
+    grid-row: 3/4;
+}
+
+#box-8{
+    background-color: rgb(200, 202, 52);
+    color: white;
+    grid-row: 3/4;
+}
